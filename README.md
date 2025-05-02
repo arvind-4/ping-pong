@@ -1,22 +1,59 @@
-# Pong-Game-Using-Pygame
+# 🏓 Ping Pong
 
-A  Multiplayer Ping Pong Game using pygame in Python
+A simple yet fun multiplayer Ping-Pong game built using Python and **Pygame**.
 
-### Step 1: Create a Virtual Environment
-```
-cd /path/to/folder
-mkdir ping_pong
-cd ping_pong
-virtualenv .
-source scripts/activate
+## 🎮 Features
+
+- Two-player local multiplayer mode
+- Real-time paddle movement
+- Scorekeeping
+- Smooth gameplay with Pygame
+
+## 📦 Requirements
+
+- Python 3.13
+- Git (Optional)
+
+## 🚀 Getting Started
+
+Follow these steps to set up and run the game on your local machine.
+
+### 1. Create a Virtual Environment
+
+```bash
+mkdir -p ~/Dev/ping-pong
+cd ~/Dev/ping-pong
+python3.13 -m venv .venv
+source .venv/bin/activate
 ```
 
-### Step 2: Clone Repository
+### 2. Clone the Repository
+
+```bash
+cd ~/Dev/ping-pong
+git clone https://github.com/arvind-4/ping-pong.git .
 ```
-cd /path/to/folder
-mkdir src
-cd src
-git clone https://github.com/Arvind-4/Pong-Game-Using-Pygame.git .
+
+### 3. Install Dependencies
+
+- Using `pip`
+
+```bash
 pip install -r requirements.txt
-python main.py
 ```
+
+- Using `uv`
+
+```bash
+uv sync
+```
+
+### 4. Run the Game
+
+```bash
+python src/main.py
+```
+
+## 📜 License
+
+This project is open-source and available under the [MIT License](https://github.com/arvind-4/ping-pong/blob/main/LICENSE).
